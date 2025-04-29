@@ -1,0 +1,332 @@
+
+
+
+.topbar{
+  width:100%;
+  height:80px;
+  color:rgb(0, 0, 0);
+  background:linear-gradient(45deg,rgb(155, 140, 140),grey,white);
+  animation:color 12s ease-in-out infinite;
+  padding: 3px 0px 3px 0px;
+  display: flex;
+}
+@keyframes color{
+  0%{
+    background-position: 0 50%;
+  }
+  50%{
+    background-position: 100% 50%;
+  }
+  100%{
+    background-position: 0 50%;
+  }
+}
+/* .iii
+{
+  width: 100%;
+  height: 100vh;
+  background-image:  url(images/.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  overflow: hidden;
+
+} */
+.hhh145{
+  display: flex;
+  font-size: 30px;
+  padding-top: 19px;
+  
+}
+
+.icon145{
+display: flex;
+padding: 25px 10px 30px 40px;
+}
+ 
+.icon245{
+display: flex;
+position: relative;
+top:25px;
+left: 959px;
+
+}
+.hel145{
+  display: flex;
+  position: relative;
+
+}
+
+.log145{
+  display: flex;
+  position: relative;
+  left:700px; 
+  padding-top: 7px;         
+}
+
+
+
+
+
+
+
+
+
+
+.card {
+    display: flex;
+    position: relative;
+    left: 200px;
+    top:150px;
+    justify-items: center;
+    justify-content: center;
+    width: 12rem;
+    cursor: pointer;
+  }
+  
+  .content {
+    text-align: center;
+    position: relative;
+    -webkit-transition: all 2.25s;
+    transition: all 2.25s;
+    background-image: url("images/SingaporeFlag.jpg");
+    background-size: cover;
+    padding: 5em;
+    -webkit-transform-style: preserve-3d;
+            transform-style: preserve-3d;
+  }
+  
+  .card:hover .content {
+    -webkit-transform: rotateY(0.5turn);
+            transform: rotateY(0.5turn);
+          
+          }
+          
+  .front,
+  .back {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    padding: 2em;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  
+  .title {
+    -webkit-transform: translateZ(5rem);
+    transform: translateZ(5rem);
+    font-size: 2rem;
+  }
+  
+  .subtitle {
+    -webkit-transform: translateZ(2rem);
+    transform: translateZ(2rem);
+  }
+  
+  .back {
+    -webkit-transform: rotateY(0.5turn);
+    transform: rotateY(0.5turn);
+    background-image: url("images/loginpage.jpg");
+    background-size: cover;
+  }
+  
+  .description {
+    -webkit-transform: translateZ(3rem);
+    transform: translateZ(3rem);
+    
+    color:rgb(0, 0, 0);
+  } 
+  
+  
+  
+  /* code for reducing border radius on hover in cards */
+  
+    /* border-bottom-right-radius: 50px;
+    border-top-left-radius: 50px;
+    transform: scale(1.05);*/
+
+
+
+    /* 
+Button insperation by @ke1221
+Menu icon transofmation insperation by @Ali-Tahmazi99
+*/
+
+.topicon{
+  position: relative;
+  left: 18px;
+  top:6px;
+}
+
+
+.menuButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10%;
+  color: #090909;
+  width: 3.5em;
+  height: 3.5em;
+  border-radius: 0.5em;
+  background: transparent;
+  
+  transition: all .3s;
+  
+}
+
+.menuButton:hover {
+  border: 1px solid white;
+}
+
+.menuButton:active {
+  color: #666;
+  box-shadow: inset 4px 4px 12px #c5c5c5,
+             inset -4px -4px 12px #ffffff;
+}
+
+input[type = "checkbox"] {
+  
+  display: none;
+  visibility: hidden;
+}
+
+.menuButton span {
+  width: 30px;
+  height: 4px;
+  background: #131313;
+  border-radius: 100px;
+  transition: 0.3s ease;
+}
+
+input[type]:hover ~ span.top {
+  transform: translateY(290%)rotate(45deg);
+  width: 40px;
+}
+
+input[type]:hover ~ span.bot {
+  transform: translateY(-270%) rotate(-45deg);
+  width: 40px;
+  box-shadow: 0 0 10px #495057;
+}
+
+input[type]:hover ~ span.mid {
+  transform: translateX(-20px);
+  opacity: 0;
+}
+
+
+.slides {
+  padding: 0;
+  width: 609px;
+  height: 420px;
+  display: block;
+  margin: 0 auto;
+  position: relative;
+}
+
+.slides * {
+  user-select: none;
+  -ms-user-select: none;
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  -webkit-touch-callout: none;
+}
+
+.slides input { display: none; }
+
+.slide-container { display: block; }
+
+.slide {
+  top: 0;
+  opacity: 0;
+  width: 609px;
+  height: 420px;
+  display: block;
+  position: absolute;
+
+  transform: scale(0);
+
+  transition: all .7s ease-in-out;
+}
+
+.slide img {
+  width: 100%;
+  height: 100%;
+}
+
+.nav label {
+  width: 200px;
+  height: 100%;
+  display: none;
+  position: absolute;
+
+  opacity: 0;
+  z-index: 9;
+  cursor: pointer;
+
+  transition: opacity .2s;
+
+  color: #FFF;
+  font-size: 156pt;
+  text-align: center;
+  line-height: 380px;
+  font-family: "Varela Round", sans-serif;
+  background-color: rgba(255, 255, 255, .3);
+  text-shadow: 0px 0px 15px rgb(119, 119, 119);
+}
+
+.slide:hover + .nav label { opacity: 0.5; }
+
+.nav label:hover { opacity: 1; }
+
+.nav .next { right: 0; }
+
+input:checked + .slide-container  .slide {
+  opacity: 1;
+
+  transform: scale(1);
+
+  transition: opacity 1s ease-in-out;
+}
+
+input:checked + .slide-container .nav label { display: block; }
+
+.nav-dots {
+width: 100%;
+bottom: 9px;
+height: 11px;
+display: block;
+position: absolute;
+text-align: center;
+}
+
+.nav-dots .nav-dot {
+top: -5px;
+width: 11px;
+height: 11px;
+margin: 0 4px;
+position: relative;
+border-radius: 100%;
+display: inline-block;
+background-color: rgba(0, 0, 0, 0.6);
+}
+
+.nav-dots .nav-dot:hover {
+cursor: pointer;
+background-color: rgba(0, 0, 0, 0.8);
+}
+
+input#img-1:checked ~ .nav-dots label#img-dot-1,
+input#img-2:checked ~ .nav-dots label#img-dot-2,
+input#img-3:checked ~ .nav-dots label#img-dot-3,
+input#img-4:checked ~ .nav-dots label#img-dot-4,
+input#img-5:checked ~ .nav-dots label#img-dot-5,
+input#img-6:checked ~ .nav-dots label#img-dot-6 {
+background: rgba(0, 0, 0, 0.8);
+}

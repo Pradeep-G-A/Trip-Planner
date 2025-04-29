@@ -1,0 +1,161 @@
+.accoma23{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+
+}
+
+.top11111234{
+    width:100%;
+    height:80px;
+    color:rgb(0, 0, 0);
+    background:linear-gradient(white);
+    animation:color 12s ease-in-out infinite;
+    padding: 3px 0px 3px 0px;
+    display: flex;
+}
+.ico000{
+    display: flex;
+    position: relative;
+    top:10px ;
+    padding-left: 45px;
+    padding-right: 15px;
+  
+  }
+  .lo00{
+    display: flex;
+    position: relative;
+    top:30px  
+  }
+
+
+.bedroomimg{
+    background: url("http://alayahotels.com/alayaresortubud/wp-content/uploads/sites/2/2017/04/alaya-ubud-deluxe-room-large-3.jpg");
+    display: flex;
+    width: 100%;
+    height:350px;
+  
+    background-color: rgb(255, 255, 255);
+    background-repeat: no-repeat;
+    background-size: 1300px 350px;
+    position: relative;
+    border: 20px;
+    border-color: black;
+    
+}
+.bedroomimg:before{
+    content: '';
+    position: relative;
+    background: url("https://tse2.mm.bing.net/th?id=OIP.FLxHoe_UbjW7ttGexK1rqQHaCQ&pid=Api&P=0&h=180") center/cover no-repeat;
+    background-size: 1280px 350px;
+    background-repeat: no-repeat;
+    mix-blend-mode: screen;
+    width: 100%;
+    height:350px;
+}
+
+
+
+
+
+.oooppp{
+    width:100%;
+    height:400px;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+
+
+
+.dateInput{
+    height: 100px;
+    width: 300px;
+    background-color:rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border: 2px;
+    position: relative;
+    top: -100px;
+    left: 80px;
+    border-radius: 30px;
+    border-style: dotted;
+    border-color: rgb(0, 0, 0);
+}
+
+
+.data-input{
+    height: 100px;
+    width: 300px;
+    background-color:rgb(255, 255, 255);
+    position: relative;
+    justify-content: center ;
+    bottom: 205px;
+    left: 490px; 
+    border-radius: 30px;
+    border: 2px;
+    border-style: dotted;
+    border-color: rgb(0, 0, 0);
+
+ 
+}
+#birthday{
+    padding: 5px 20px 5px 20px;
+    position: relative;
+    display: flex;
+    left: 60px;
+    bottom: 10px;
+    transform: scale(1.2);
+    background-color: rgb(63, 67, 65);
+    color: white;
+    border: none;
+    
+}
+.gen-der{
+    display: flex;
+}
+.m--ale{
+     position: relative;
+     left: 50px;
+     transform: scale(1.4);
+}
+
+.fm--ale{
+    position: relative;
+    left: 130px;
+    transform: scale(1.4);
+}
+.syd{
+    position: relative;
+    display: flex;
+    justify-content: center ;
+    padding: 10px 0px 0px 0px;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+
+.gender{
+    display: flex;
+    padding-bottom: 20px;
+    padding-left: 100px;
+   
+}
+.gender1{
+    font-size: 1.3rem;
+    font-weight: 400;
+}
+.malerad{
+    display: flex;
+    position: relative;
+    
+    padding-left: 55px;
+    transform: scale(1.2);
+    
+}
+.femalerad{
+    display: flex;
+    position: relative;
+    padding-left: 170px;
+    top: -19px;
+    transform: scale(1.2);
+}
