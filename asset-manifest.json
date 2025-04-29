@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.0ca04f31.css",
+    "main.js": "/static/js/main.18f27db9.js",
+    "static/js/787.a00d7a99.chunk.js": "/static/js/787.a00d7a99.chunk.js",
+    "static/media/Marinabaysvedio.mp4": "/static/media/Marinabaysvedio.980a13cb40877942420d.mp4",
+    "static/media/SentosaIsland.mp4": "/static/media/SentosaIsland.86be673a3343fbd1129b.mp4",
+    "static/media/Intropagevedio.mp4": "/static/media/Intropagevedio.4168c7f0bcb96a8eff5b.mp4",
+    "static/media/SEA.Aquariumvedio.mp4": "/static/media/SEA.Aquariumvedio.b2c211a29b487503bcb0.mp4",
+    "static/media/JewelchanjiAirportvedio.mp4": "/static/media/JewelchanjiAirportvedio.2f436417796140a09454.mp4",
+    "static/media/Merlionparkvedio.mp4": "/static/media/Merlionparkvedio.ba88477211dd813193ba.mp4",
+    "static/media/singaporetownvedio.mp4": "/static/media/singaporetownvedio.1f52e8586719590345d5.mp4",
+    "static/media/4Kimagehome.jpg": "/static/media/4Kimagehome.25b2814f833f8f28c59a.jpg",
+    "static/media/SingaporeFlag.jpg": "/static/media/SingaporeFlag.3d8e052ac9e021e72e54.jpg",
+    "static/media/loginpage.jpg": "/static/media/loginpage.11a3dcec3f6143ff3adc.jpg",
+    "index.html": "/index.html",
+    "main.0ca04f31.css.map": "/static/css/main.0ca04f31.css.map",
+    "main.18f27db9.js.map": "/static/js/main.18f27db9.js.map",
+    "787.a00d7a99.chunk.js.map": "/static/js/787.a00d7a99.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0ca04f31.css",
+    "static/js/main.18f27db9.js"
+  ]
+}
